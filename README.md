@@ -12,7 +12,7 @@
 
 # Solar Cell Tiles Power Monitor for Indoor Windows
 
-This is a simple PCB for a direct fit on commercially available [blue solar cell tiles](https://s.click.aliexpress.com/e/_DCnJW0V)  with dimensions 124x124mm. This PCB features a single 18650 Battery management system intended for indoor usage. In particular to be installed on the top or downside of transparent glass windows at a home or office. This PCB, when assembled with a blue solar cell tile, can be used to power a low voltage 4.2V indoor illumination network using ultra-low power micro LED strips.  For insatnce [this one](https://s.click.aliexpress.com/e/_DCKg9xJ) sold on AliExpress.   
+This is a simple PCB for a direct fit on commercially available [blue solar cell tiles](https://s.click.aliexpress.com/e/_DCnJW0V)  with dimensions 124x124mm. This Smart Device is intended to connect with the [Single Solar Cell with one 18650 Battery Storage](https://github.com/aeonSolutions/AeonLabs-HomeAutomation-Power-Managment-Single-SolarCELL-18650-battery-storage/blob/main/README.md) and also the [Single Solar Cell with two 18650 as Battery Storage](https://github.com/aeonSolutions/AeonLabs-HomeAutomation-Power-Managment-Single-SolarCELL-2X-18650-battery-storage/blob/main/README.md) to do active solar cell tile and battery management up to 8 solar tiles conencted together intended for indoor usage. In particular to be installed on the top or downside of transparent glass windows at a home or office. This PCB, when assembled with a blue solar cell tile, can be used to power a low voltage 4.2V indoor illumination network using ultra-low power micro LED strips.  For insatnce [this one](https://s.click.aliexpress.com/e/_DCKg9xJ) sold on AliExpress.   
 
 When connected in series and installed on several windows and networked, can power off the grid a 4.2V LED illumination on all rooms and compartments at a home or office. During evenings and at night until bedtime. If one intends to use it to power indoors LED illumination during the day is required a High Capacity Power Bank connected to all first tiles of all the series. For instance this [power bank](https://s.click.aliexpress.com/e/_Ddl7nsh) here. 
 
@@ -25,9 +25,10 @@ When connected in series and installed on several windows and networked, can pow
 
 A breif view of specifications:
 
-- 1x 18650 LiPo battery management system
-- the PCB can be connected in series to form a lenght of solar cell tiles packed together (each with its own single BMS. 
-- Main ON/OFF switch.
+- up to 8 solar cell tiles battery active monitoring 
+- Buzzer for sound alarm and warnings
+- Onboard Temperature and humidity sensores
+- Onboard motion sensor
 - PCB asssembly in series made with a 10 pin pin header/ socket. For "plug and play" type of instalations
 - Screw terminal to connect main low power 5V DC line at home/office. 
 
@@ -43,6 +44,18 @@ waiting to be tested. Stay tuned for updates.
 
 <p align="center">
 <img src="https://github.com/aeonSolutions/AeonLabs-HomeAutomation-Power-Managment-Solar-Cell-offgrid-Power-Monitor-for-Indoor-Window-Tiles/blob/main/Designs/pcb_front.png" height="350">
+</p>
+
+<br>
+
+## Compatibility
+
+<p align="center">
+<img src="https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/blob/main/works_with_apple_home.png" height="150">
+<img src="https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/blob/main/works_with_google_home.png" height="150">
+ <img src="https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/blob/main/works_with_home_assistanr.png" height="150">
+ <img src="https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/blob/main/works_with_matter.png" height="150">
+ <img src="https://github.com/aeonSolutions/PCB-Prototyping-Catalogue/blob/main/works_with_zigbee.jpg" height="150">
 </p>
 
 <br>
